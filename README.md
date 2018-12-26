@@ -112,3 +112,7 @@ echo -e "myuser\nmypass" >> /etc/vsftpd/virtual_users.txt
 exit
 docker restart vsftpd
 ```
+
+### Download
+
+`wget --no-passive --no-parent ftp://admin:qwe123@ftp.codreamer.online/rpms/jdk-7u60-linux-x64.rpm`
